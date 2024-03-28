@@ -86,13 +86,3 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-// Event listener for the submit button
-submitButton.addEventListener('click', () => {
-  const initials = initialsInput.value.trim();
-  // Here you can save the initials and score to localStorage or send to server
-  // For now, just log them to console
-  console.log("Initials:", initials);
-  console.log("Final Score:", score);
-  // Redirect to highscores page
-  window.location.href = "highscores.html"; // Change the URL to your highscores page
-});
